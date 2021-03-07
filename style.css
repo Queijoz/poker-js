@@ -1,0 +1,112 @@
+body{
+    min-width: 100%;
+    background-color: rgb(200, 200, 200);
+    padding: 0;
+    margin: 0;
+    transition-duration: 0.5s;
+}
+#menu{
+    transform: translate(50%, 10%);
+    width: 50%;
+    height: 80vh;
+    border: 5px solid black;
+    background-color: rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+button{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    border: none;
+    outline: none;
+    transition-duration: 0.5s;
+}
+button:focus{
+    transform: translateY(25px);
+    transition-duration: 0.5s;
+}
+#menu button{
+    width: 90%;
+    height: 25%;
+}
+#button-reroll{
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    right: 10%;
+    bottom: 370px;
+    font-size: large;
+}
+#button-finish{
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    right: 10%;
+    bottom: 455px;
+    font-size: large;
+}
+
+
+#card-box{
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: fit-content;
+
+    background-color: rgba(0, 0, 0, 0.25);
+    border: 5px solid black;
+    padding: 10px;
+
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+#card-box2{
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: fit-content;
+
+    background-color: rgba(0, 0, 0, 0.25);
+    border: 5px solid black;
+    padding: 10px;
+
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+.card {
+    height: 220px;
+    width: 157.5px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
+
+    display: inline-block;
+    
+    /*background-image: url("cards/heart1.png");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    transition-duration: 0.5s;
+}
+.card:hover {
+    transform: translateY(-50px);
+}
+#card-box .card{
+    cursor: pointer;
+}
+h1{
+    font-family: Helvetica, sans-serif;
+    font-size: xx-large;
+    font-weight: lighter;
+    color: white;
+    text-transform: uppercase;
+}
