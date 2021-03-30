@@ -1,3 +1,5 @@
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Queijoz/poker-js)
+
 # Poker Game
 
 An open source web Poker game that I made to play against AI with my own card themes, rules and everything.
