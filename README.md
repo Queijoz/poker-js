@@ -1,6 +1,6 @@
 # Poker Game
 
-An open source web Poker game that I made to play against AI with my own card themes, rules and everything.
+A Poker game that I made to play with my own card themes, rules and everything.
 
 ## Card Making
 
